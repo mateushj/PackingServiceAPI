@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PackingService</name>
+    </assembly>
+    <members>
+        <member name="M:PackingServiceAPI.Controllers.EmbalagemController.EmpacotarPedidos(PackingServiceAPI.DTOs.PedidoLoteDto)">
+            <summary>
+            Processa uma lista de pedidos para definir quais caixas usar e quais produtos vão em cada caixa.
+            </summary>
+            <param name="pedidos">Lista de pedidos contendo produtos com dimensões.</param>
+            <returns>Lista de pedidos com a distribuição dos produtos nas caixas.</returns>
+            <response code="200">Pedidos empacotados com sucesso.</response>
+            <response code="400">Lista de pedidos está vazia ou nula.</response>
+        </member>
+    </members>
+</doc>
