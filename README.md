@@ -49,8 +49,7 @@ Recebe uma lista de pedidos com produtos e suas dimensões, e retorna a melhor f
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/PackingServiceAPI.git
-cd PackingServiceAPI
+git clone https://github.com/mateushj/PackingServiceAPI.git
 ```
 2. Ajuste as configurações de conexão no appsettings.json para apontar para o container do SQL Server.
 
